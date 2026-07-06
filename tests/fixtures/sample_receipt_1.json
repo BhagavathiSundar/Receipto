@@ -1,0 +1,16 @@
+{
+  "receipt_id": "demo-001",
+  "merchant_name": "Cafe Mocha House",
+  "date": "2026-06-14",
+  "total_amount": 441.00,
+  "tax_amount": 21.00,
+  "currency": "INR",
+  "payment_method": "UPI",
+  "items": [
+    {"name": "Cappuccino", "quantity": 2, "unit_price": 120.0, "total_price": 240.0},
+    {"name": "Blueberry Muffin", "quantity": 1, "unit_price": 180.0, "total_price": 180.0}
+  ],
+  "category": "Food",
+  "source_chat_id": "123456",
+  "content_hash": "abc123demo"
+}

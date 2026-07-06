@@ -1,0 +1,11 @@
+Cafe Mocha House
+123 MG Road, Madurai
+Date: 2026-06-14
+Item: Cappuccino x2       240.00
+Item: Blueberry Muffin x1  180.00
+Subtotal: 420.00
+Tax: 21.00
+Total: 441.00
+Payment: UPI
+Currency: INR
+Thank you for visiting!

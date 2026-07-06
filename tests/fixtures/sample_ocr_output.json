@@ -1,0 +1,6 @@
+{
+  "receipt_id": "demo-001",
+  "raw_text": "Cafe Mocha House\n123 MG Road, Madurai\nDate: 2026-06-14\nItem: Cappuccino x2       240.00\nItem: Blueberry Muffin x1  180.00\nSubtotal: 420.00\nTax: 21.00\nTotal: 441.00\nPayment: UPI\nCurrency: INR\nThank you for visiting!",
+  "language": "en",
+  "confidence": 0.94
+}

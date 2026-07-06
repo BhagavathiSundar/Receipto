@@ -1,0 +1,13 @@
+{
+  "receipt_id": "demo-002",
+  "merchant_name": "Uber",
+  "date": "2026-06-20",
+  "total_amount": 650.00,
+  "tax_amount": 0.0,
+  "currency": "INR",
+  "payment_method": "Credit Card",
+  "items": [],
+  "category": "Travel",
+  "source_chat_id": "123456",
+  "content_hash": "def456demo"
+}

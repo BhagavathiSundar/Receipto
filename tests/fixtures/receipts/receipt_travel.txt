@@ -1,0 +1,8 @@
+Uber Ride Receipt
+Trip Date: 2026-06-20
+Pickup: Airport
+Drop: Hotel
+Fare Total: 650.00
+Tax: 0.00
+Payment: Credit Card
+Currency: INR

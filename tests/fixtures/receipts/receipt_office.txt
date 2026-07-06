@@ -1,0 +1,8 @@
+Sri Office Supplies Mart
+Date: 2026-06-25
+Item: A4 Paper Ream x3    900.00
+Item: Stapler x1          150.00
+Total: 1050.00
+Tax: 0.00
+Payment: Cash
+Currency: INR
