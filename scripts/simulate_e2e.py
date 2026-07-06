@@ -33,10 +33,12 @@ from src.schemas.receipt import StructuredReceipt  # noqa: E402
 
 # Patch the sheets-backed tools to use the offline fake store instead of
 # a real Google Sheet, purely for this simulation script.
+# Note: patch the name in the module that imported it, not just the source module.
 import src.integrations.google_sheets_client as sheets_client  # noqa: E402
 
 sheets_client.append_receipt_row = fake_sheets_store.append_receipt_row
 sheets_client.fetch_rows_for_month = fake_sheets_store.fetch_rows_for_month
+summary_tool.fetch_rows_for_month = fake_sheets_store.fetch_rows_for_month
 
 FIXTURES = ROOT / "tests" / "fixtures" / "receipts"
 
