@@ -1,0 +1,29 @@
+services:
+  receipto-mcp-server:
+    build: .
+    container_name: receipto-mcp-server
+    env_file:
+      - .env
+    ports:
+      - "8765:8765"
+    volumes:
+      - ./data:/app/data
+      - ./secrets:/app/secrets:ro
+    restart: unless-stopped
+
+  # Optional second service: a simple polling loop that checks Telegram
+  # every N seconds and processes new receipts. Run instead of / alongside
+  # the MCP server depending on your deployment style.
+  receipto-poller:
+    build: .
+    container_name: receipto-poller
+    command: >
+      sh -c "while true; do python main.py poll; sleep 30; done"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./secrets:/app/secrets:ro
+    restart: unless-stopped
+    profiles:
+      - poller
